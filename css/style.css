@@ -74,9 +74,11 @@ section {
 .btn {
   display: inline-block;
   margin-top: 1rem;
-  background-color: #0081c9;
+  /* background-color: #0081c9; */
+  background-color: #98d9fcf5;;
   cursor: pointer;
-  color: var(--white);
+  /* color: var(--white); */
+  color: black;
   font-size: 1.8rem;
   padding: 1rem 3rem;
 }
@@ -90,7 +92,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #5bc0f8;
+  background-color: #98d9fc93;
   box-shadow: var(--box-shadow);
   z-index: 1000;
 }
