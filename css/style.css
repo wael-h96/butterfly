@@ -75,7 +75,7 @@ section {
   display: inline-block;
   margin-top: 1rem;
   /* background-color: #0081c9; */
-  background-color: #98d9fcf5;;
+  background-color: #98d9fcf5;
   cursor: pointer;
   /* color: var(--white); */
   color: black;
@@ -167,11 +167,11 @@ span:nth-child(2) {
 }
 
 @keyframes fade-in {
-   100% {
-     opacity: 1;
-     filter: blur(0);
-   }
- }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
 
 .heading p {
   padding: 1rem 0;
@@ -405,6 +405,13 @@ span:nth-child(2) {
 
 .menu-img {
   clip-path: circle(50% at 50% 50%);
+}
+
+.styled-section {
+  background-color: #98d9fc93;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 /* media queries  */
